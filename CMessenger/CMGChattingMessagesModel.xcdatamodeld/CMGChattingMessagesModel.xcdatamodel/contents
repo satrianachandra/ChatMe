@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="878" systemVersion="11D50b" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="ChatRoom" representedClassName="ChatRoom" syncable="YES">
+        <attribute name="invited" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subject" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ChatWith" representedClassName="ChatWith" syncable="YES">
+        <attribute name="isactive" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="messages" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="MessagesInfo" inverseName="chatwith" inverseEntity="MessagesInfo" syncable="YES"/>
+    </entity>
+    <entity name="Favorite" representedClassName="Favorite" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MessagesInfo" representedClassName="MessagesInfo" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="delivered" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="from" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idMess" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isLocation" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="item" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="to" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="chatwith" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="ChatWith" inverseName="messages" inverseEntity="ChatWith" syncable="YES"/>
+    </entity>
+    <entity name="Status" representedClassName="ThisUser" syncable="YES">
+        <attribute name="inuse" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="show" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ChatRoom" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="ChatWith" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="Favorite" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="MessagesInfo" positionX="160" positionY="192" width="128" height="135"/>
+        <element name="Status" positionX="160" positionY="192" width="128" height="105"/>
+    </elements>
+</model>
