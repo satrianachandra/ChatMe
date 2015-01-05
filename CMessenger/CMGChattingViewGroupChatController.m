@@ -2,8 +2,8 @@
 //  CMGChattingViewGroupChatController.m
 //  CMessenger
 //
-//  Created by Eueung Mulyana on 4/18/12.
-//  Copyright (c) 2012 ITB. All rights reserved.
+//  Created by Chandra Satriana on 4/18/12.
+//  Copyright (c) 2012 Chandra Satriana.
 //
 
 #import "CMGChattingViewGroupChatController.h"

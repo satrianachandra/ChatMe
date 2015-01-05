@@ -2,8 +2,8 @@
 //  CMGChattingCell.m
 //  CMessenger
 //
-//  Created by Eueung Mulyana on 3/22/12.
-//  Copyright (c) 2012 ITB. All rights reserved.
+//  Created by Chandra Satriana on 3/22/12.
+//  Copyright (c) 2012 Chandra Satriana.
 //
 
 #import "CMGChattingCell.h"

@@ -2,8 +2,8 @@
 //  CMGActiveChatDelegate.h
 //  CMessenger
 //
-//  Created by Eueung Mulyana on 2/14/12.
-//  Copyright (c) 2012 ITB. All rights reserved.
+//  Created by Chandra Satriana on 2/14/12.
+//  Copyright (c) 2012 Chandra Satriana.
 //
 
 #ifndef CMessenger_CMGActiveChatDelegate_h

@@ -2,8 +2,8 @@
 //  CMGViewImageController.m
 //  CMessenger
 //
-//  Created by Eueung Mulyana on 5/16/12.
-//  Copyright (c) 2012 ITB. All rights reserved.
+//  Created by Chandra Satriana on 5/16/12.
+//  Copyright (c) 2012 Chandra Satriana.
 //
 
 #import "CMGViewImageController.h"

@@ -2,8 +2,8 @@
 //  CMGAddBuddyProcessDelegate.h
 //  CMessenger
 //
-//  Created by Eueung Mulyana on 2/21/12.
-//  Copyright (c) 2012 ITB. All rights reserved.
+//  Created by Chandra Satriana on 2/21/12.
+//  Copyright (c) 2012 Chandra Satriana.
 //
 
 #ifndef CMessenger_CMGAddBuddyProcessDelegate_h
